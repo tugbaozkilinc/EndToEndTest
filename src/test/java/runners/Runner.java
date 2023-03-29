@@ -6,16 +6,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions (
-
-        features="src/test/resources/features",
-        glue= {"stepdefinitions", "hooks"},
-        tags="@amazon_search"  ,
-
-        dryRun= false
-
+        features = "src/test/resources/features",
+        glue = {"stepdefinitions", "hooks"},
+        tags = "@TC01_api",
+        dryRun = false
 )
 
-
 public class Runner {
-
 }
