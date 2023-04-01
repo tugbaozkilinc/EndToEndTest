@@ -4,7 +4,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 
-import static testdata.MedunnaToken.medunnaToken;
+import static utilities.AuthenticationMedunna.medunnaToken;
 
 public class MedunnaBaseUrl {
 

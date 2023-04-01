@@ -1,4 +1,4 @@
-package testdata;
+package utilities;
 
 import io.restassured.http.ContentType;
 
@@ -7,7 +7,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class MedunnaToken {
+public class AuthenticationMedunna {
 
     public static String medunnaToken(){
         String url = "https://medunna.com/api/authenticate";

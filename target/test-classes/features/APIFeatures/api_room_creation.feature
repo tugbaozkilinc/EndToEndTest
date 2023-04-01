@@ -1,4 +1,4 @@
-@TC01_api
+@api_test
 Feature: Room Creation
 
   Scenario: TC01_Post_Room

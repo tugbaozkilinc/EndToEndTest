@@ -6,7 +6,7 @@ import static base_urls.MedunnaBaseUrl.medunnaSetUp;
 
 public class Hooks {
 
-    @Before("@TC01_api")
+    @Before
     public void beforeApi(){
         medunnaSetUp();
     }
